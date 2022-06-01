@@ -3,7 +3,7 @@ import Card from "../UI/Card.jsx";
 import ExpenseDate from "./ExpenseDate.jsx";
 import "./ExpenseItem.css";
 const ExpenseItem = (props) => {
-  console.log(props);
+  // console.log(props);
   const [title, setTitle] = useState(props.title);
   const changeTitle = () => {
     setTitle("updated");

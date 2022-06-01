@@ -3,7 +3,7 @@ import ExpenseItem from "./ExpenseItem.jsx";
 import "./Expenses.css";
 
 const Expenses = ({ item }) => {
-  console.log(item);
+  // console.log(item);
   return (
     <Card className="expenses">
       <ExpenseItem
